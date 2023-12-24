@@ -152,7 +152,7 @@
 //     document.querySelector('.number').style.width='15rem';
 // });
 let secretNumber=Math.trunc(Math.random()*20)+1;
-document.querySelector('.number').textContent=secretNumber;
+// document.querySelector('.number').textContent=secretNumber;
 let score=20;
 let highScore=0;
 const displayMessage=function(message){
